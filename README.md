@@ -239,7 +239,7 @@ npm run test:cov
 
 ## 👨‍💻 Autor
 
-Desenvolvido com ❤️ por [Seu Nome](https://github.com/luiz-dias)
+Desenvolvido com ❤️ por [Luiz Dias](https://github.com/luiz-dias)
 
 ---
 
