@@ -1,0 +1,8 @@
+-- CATEGORIAS
+INSERT INTO public.categoria (id, "name", description, icon, parent_id, created_at, updated_at)
+VALUES
+('CAT1'::uuid, 'Periféricos', 'Mouse, teclado, headset e acessórios', '🖱️', NULL, now(), now()),
+('CAT2'::uuid, 'Informática', 'Computadores, notebooks e monitores', '💻', NULL, now(), now()),
+('CAT3'::uuid, 'Armazenamento', 'HDs, SSDs e pen drives', '💾', NULL, now(), now()),
+('CAT4'::uuid, 'Acessórios', 'Cabos, suportes e outros itens menores', '🔌', NULL, now(), now()),
+('CAT5'::uuid, 'Móveis Gamer', 'Cadeiras, mesas e suportes para setup gamer', '🪑', NULL, now(), now());
