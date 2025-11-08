@@ -13,7 +13,7 @@ jobs:
 
       - uses: actions/setup-node@v1
         with:
-          node-version: 16
+          node-version: 22.x
 
       - run: npm install   # boa prática: usar "npm ci" se houver package-lock.json
       - run: npm test
