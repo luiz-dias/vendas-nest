@@ -11,11 +11,12 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - uses: actions/setup-node@v1
+      - uses: actions/setup-node@v3
+
         with:
           node-version: 22.x
 
       - run: npm install   # boa prática: usar "npm ci" se houver package-lock.json
       - run: npm test
       - run: npm run build
-      - run: npm run deploy
+
